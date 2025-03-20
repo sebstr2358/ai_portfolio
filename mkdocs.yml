@@ -1,7 +1,11 @@
 site_name: Moje projekty
 site_author: Sebastian Strzelczyk
+site_url: https://sebstr2358.github.io/ai_portfolio/
 site_description: >-
     Portfolio moich wspaniałych projektów z Data Science i AI!
+
+repo_name: sebstr2358/ai_portfolio
+repo_url: https://github.com/sebstr2358/ai_portfolio
 
 theme:
   name: material
