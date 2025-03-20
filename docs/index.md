@@ -1,2 +1,2 @@
-# Witam na stronie portfolio
+# Witam serdecznie na stronie portfolio
 
