@@ -6,7 +6,7 @@ Zapraszamy do zapoznania się z wyjątkowym projektem autorstwa Rafała, który 
 
 <iframe
     id="content"
-    src="justyna_irysy.html"
+    src="justyna_irysyIrysy_RafalNey.slides.html"
     width="100%"
     style="border:1px solid black;overflow:hidden;"
 ></iframe>
