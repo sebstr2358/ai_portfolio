@@ -6,7 +6,7 @@ Zapraszamy do zapoznania się z wyjątkowym projektem autorstwa Rafała, który 
 
 <iframe
     id="content"
-    src="Irysy_RafalNey.slides.html"
+    src="iris.html"
     width="100%"
     style="border:1px solid black;overflow:hidden;"
 ></iframe>
