@@ -1,6 +1,10 @@
 # Analiza Danych EDA Irysów: Eksploracja Domenowa
 
-Zapraszamy do zapoznania się z wyjątkowym projektem autorstwa Rafała, który przenosi nas w świat analizy danych irysów za pomocą eksploracji domenowej (EDA). W tym projekcie znajdziesz mnóstwo trafnych wniosków i ciekawych obserwacji, które rzucają nowe światło na te piękne kwiaty. Przygotuj się na fascynującą podróż przez dane, która z pewnością wzbogaci Twoją wiedzę i zainspiruje do dalszych badań.
+Zapraszam do zapoznania się z projektem analizy. Projekt miał za zadanie
+zbadać podobieństwa i różnice 3 gatunków irysów i odpowiedzieć na 
+arcyważne pytanie - jak określić gatunek napotkanego irysa mając
+do dyspozycji jedynie metrówkę?
+Czy cel został zrealizowany? Sprawdź sam!
 
 <a href="iris.ipynb" class="md-button md-button--primary">Pobierz Notebook</a>
 
