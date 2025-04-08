@@ -5,7 +5,7 @@ dotyczących uczestników kursu tworzenia sztucznej inteligencji. Ankieta pozwol
 Kliknij w link poniżej i sprawdź!
 
 
-<a href="https://filtersurveyapp.streamlit.app/" class="md-button md-button--primary">FilterSurvey</a>
+<a href="https://filtersurveyapp.streamlit.app/" class="md-button md-button--primary" target='_blank'>FilterSurvey</a>
 
 <iframe
     id="content"
