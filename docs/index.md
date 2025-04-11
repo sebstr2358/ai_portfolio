@@ -4,7 +4,7 @@
 </header>
 <div style="display: flex">
     <img src='tworzenie_przyszlosci400x400.png' alt='Tworzenie przyszłości'>
-    <div style="display: flex; flex-direction: column; margin-left: 1.5rem">
+    <div style="display: flex; flex-direction: column; margin-left: 1.5rem; justify-content: center">
         <p><em>"Najlepszą metodą przewidywania przyszłości jest jej tworzenie"</em></p>
         <p style="text-align: right">Peter Drucker</p>
     </div>
