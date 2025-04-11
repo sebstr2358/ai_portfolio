@@ -1,14 +1,15 @@
-#  Analiza Danych EDA Titanica: Eksploracja Domenowa
-
-Analiza dotyczy pasażerów rejsu z 1912r. Dla części z nich
-była to ostatnia przygoda życia, dla innych zaś, większych 
-szczęściarzy, jedynie kolejna lekcja. Czy na pewno o przetrwaniu
-zadecydował jedynie łut szczęścia, czy może można było temu
-szczęściu w sposób świadomy pomóc? Czy którykolwiek pasażer miał
-pewność przeżycia?
-Na te i inne pytania postaram się
-odpowiedzieć w oparciu o załączone dane.
-Zapraszam do analizy!
+<header style="margin-bottom: 2rem">
+    <h1 style="margin-bottom: 0">Analiza Danych EDA Titanica: Eksploracja Domenowa</h1>
+    <p>Analiza dotyczy pasażerów rejsu z 1912r. Dla części z nich
+    była to ostatnia przygoda życia, dla innych zaś, większych 
+    szczęściarzy, jedynie kolejna lekcja. Czy na pewno o przetrwaniu
+    zadecydował jedynie łut szczęścia, czy może można było temu
+    szczęściu w sposób świadomy pomóc? Czy którykolwiek pasażer miał
+    pewność przeżycia?
+    Na te i inne pytania postaram się
+    odpowiedzieć w oparciu o załączone dane.
+    Zapraszam do analizy!</p>
+</header>
 
 
 <a href="titanic.ipynb" class="md-button md-button--primary">Pobierz Notebook</a>

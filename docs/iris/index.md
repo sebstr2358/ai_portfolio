@@ -1,10 +1,11 @@
-# Analiza Danych EDA Irysów: Eksploracja Domenowa
-
-Zapraszam do zapoznania się z projektem analizy. Projekt miał za zadanie
-zbadać podobieństwa i różnice 3 gatunków irysów i odpowiedzieć na 
-arcyważne pytanie - jak określić gatunek napotkanego irysa mając
-do dyspozycji jedynie metrówkę?
-Czy cel został zrealizowany? Sprawdź sam!
+<header style="margin-bottom: 2rem">
+    <h1 style="margin-bottom: 0">Analiza Danych EDA Irysów: Eksploracja Domenowa</h1>
+    <p>Zapraszam do zapoznania się z projektem analizy. Projekt miał za zadanie
+    zbadać podobieństwa i różnice 3 gatunków irysów i odpowiedzieć na 
+    arcyważne pytanie - jak określić gatunek napotkanego irysa mając
+    do dyspozycji jedynie metrówkę?
+    Czy cel został zrealizowany? Sprawdź sam!</p>
+</header>
 
 <a href="iris.ipynb" class="md-button md-button--primary">Pobierz Notebook</a>
 

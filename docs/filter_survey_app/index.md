@@ -5,7 +5,10 @@
     Kliknij w link poniżej i sprawdź!</p>
 </header>
 
-<a href="https://filtersurveyapp.streamlit.app/" class="md-button md-button--primary" target='_blank'>FilterSurvey</a>
+<main>
+    <a href="https://filtersurveyapp.streamlit.app/" class="md-button md-button--primary" target='_blank'>FilterSurvey</a>
+    
+</main>
 
 
 
