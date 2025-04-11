@@ -2,4 +2,4 @@
 
 Moje portfolio obejmuje trzy ukończone projekty, w tym jedną analizę interaktywną. Obecnie pracuję nad kolejnym, bardziej zaawansowanym projektem, w którym planuję wykorzystać modele sztucznej inteligencji. Po ukończeniu, pochwalę się oczywiście efektem końcowym. Zachęcam do regularnego odwiedzania mojego portfolio i śledzenia postępów.
 
-![Myślący mężczyzna](dall_e_3__myślący_mężczyzna.png)
+![Myślący mężczyzna](dall_e_3__myślący_mężczyzna.png){width=50%; height=auto;}
