@@ -9,6 +9,9 @@ repo_url: https://github.com/sebstr2358/ai_portfolio
 
 theme:
   name: material
+  palette:
+    primary: lime
+    accent: light green
 
 nav:
 - Strona Domowa: index.md
@@ -42,3 +45,5 @@ plugins:
        background: white
        shadow: true
        manual: false
+
+  
