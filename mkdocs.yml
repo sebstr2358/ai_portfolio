@@ -16,3 +16,8 @@ nav:
   - "Filter_survey_app": filter_survey_app/index.md
   - "Titanic": titanic/index.md
   - "Iris": iris/index.md
+
+  markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
