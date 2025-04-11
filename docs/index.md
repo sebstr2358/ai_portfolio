@@ -5,5 +5,4 @@ Moje portfolio obejmuje trzy ukończone projekty, w tym jedną analizę interakt
 ![W rękach cały świat](tworzenie_przyszlosci400x400.png){ align=left}
 > *"Najlepszą metodą przewidywania przyszłości jest jej tworzenie"*
 <br>
-<br>
-                                    Peter Drucker
+#### Peter Drucker {align=right}
