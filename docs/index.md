@@ -1,9 +1,11 @@
-# Witam serdecznie na stronie portfolio
+<h1>Witam serdecznie na stronie portfolio</h1>
 
-Moje portfolio obejmuje trzy ukończone projekty, w tym jedną analizę interaktywną. Obecnie pracuję nad kolejnym, bardziej zaawansowanym projektem, w którym planuję wykorzystać modele sztucznej inteligencji. Po ukończeniu, pochwalę się oczywiście efektem końcowym. Zachęcam do regularnego odwiedzania mojego portfolio i śledzenia postępów.
+<p style="margin-bottom: 0.5rem">Moje portfolio obejmuje trzy ukończone projekty, w tym jedną analizę interaktywną. Obecnie pracuję nad kolejnym, bardziej zaawansowanym projektem, w którym planuję wykorzystać modele sztucznej inteligencji. Po ukończeniu, pochwalę się oczywiście efektem końcowym. Zachęcam do regularnego odwiedzania mojego portfolio i śledzenia postępów.</p>
 
-![W rękach cały świat](tworzenie_przyszlosci400x400.png){ align=left}
+<div style='display: flex'>
+    ![W rękach cały świat](tworzenie_przyszlosci400x400.png){ align=left}
 > *"Najlepszą metodą przewidywania przyszłości jest jej tworzenie"*
-<p style="text-align: right; margin-top: .5rem">
+<p style="text-align: right; margin-top: 0.1rem">
   Peter Drucker
 </p>
+</div>
