@@ -10,17 +10,17 @@
 
 <p>Mały spojler o ankietowanych:</p>
 ``` yaml
-# Wiek
+# Wiek (1)!
 ```
 1. Najstarsza osoba powyżej 65 lat!
 
 ``` yaml
-# Płeć
+# (2)! Płeć
 ```
 2. Znacznie więcej mężczyzn niż kobiet!
 
 ``` yaml
-# Koty czy psy
+# (3)! Koty czy psy
 ```
 3. Zdecydowanie psy!
 
