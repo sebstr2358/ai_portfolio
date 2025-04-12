@@ -10,18 +10,19 @@
 
 <p>Mały spojler o ankietowanych:</p>
 ``` yaml
-# (1)!
+# Wiek
 ```
-``` yaml
-# (2)!
-```
-``` yaml
-# (3)!
-```
+1. Najstarsza osoba powyżej 65 lat!
 
-1. Wiek
-2. Płeć
-3. Główny motyw do nauki AI 
+``` yaml
+# Płeć
+```
+2. Znacznie więcej mężczyzn niż kobiet!
+
+``` yaml
+# Koty czy psy
+```
+3. Zdecydowanie psy!
 
 
 
