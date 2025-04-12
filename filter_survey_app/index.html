@@ -424,9 +424,9 @@
             max-width: 300px;
             margin: 20px auto;">
     <h2>Wiek</h2>
-    <button id="show-button" class="md-button md-button--primary" onclick="toggleVisibilityAge()">Pokaż spoiler</button>
-    <button id="hide-button" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibilityAge()">Ukryj spoiler</button>
-    <div id="hidden-text" style="display: none; margin-top: 10px;">
+    <button id="show-button-age" class="md-button md-button--primary" onclick="toggleVisibilityAge()">Pokaż spoiler</button>
+    <button id="hide-button-age" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibilityAge()">Ukryj spoiler</button>
+    <div id="hidden-text-age" style="display: none; margin-top: 10px;">
         <p>Najstarsza osoba ma powyżej 65 lat!</p>
     </div>
 </div>
@@ -443,9 +443,9 @@
             max-width: 300px;
             margin: 20px auto;">
     <h2>Płeć</h2>
-    <button id="show-button" class="md-button md-button--primary" onclick="toggleVisibilityGender()">Pokaż spoiler</button>
-    <button id="hide-button" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibilityGender()">Ukryj spoiler</button>
-    <div id="hidden-text" style="display: none; margin-top: 10px;">
+    <button id="show-button-gender" class="md-button md-button--primary" onclick="toggleVisibilityGender()">Pokaż spoiler</button>
+    <button id="hide-button-gender" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibilityGender()">Ukryj spoiler</button>
+    <div id="hidden-text-gender" style="display: none; margin-top: 10px;">
         <p>Kobiety stanowią zaledwie ok. 23% ankietowanych!</p>
     </div>
 </div>
@@ -462,59 +462,59 @@
             max-width: 300px;
             margin: 20px auto;">
     <h2>Ulubione zwierze</h2>
-    <button id="show-button" class="md-button md-button--primary" onclick="toggleVisibilityAnimal()">Pokaż spoiler</button>
-    <button id="hide-button" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibilityAnimal()">Ukryj spoiler</button>
-    <div id="hidden-text" style="display: none; margin-top: 10px;">
+    <button id="show-button-animal" class="md-button md-button--primary" onclick="toggleVisibilityAnimal()">Pokaż spoiler</button>
+    <button id="hide-button-animal" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibilityAnimal()">Ukryj spoiler</button>
+    <div id="hidden-text-animal" style="display: none; margin-top: 10px;">
         <p>Zdecydowanie psy!</p>
     </div>
 </div>
 <script>
 function toggleVisibilityAge() {
 
-    var hiddenText = document.getElementById("hidden-text");
-    var showButton = document.getElementById("show-button");
-    var hideButton = document.getElementById("hide-button");
+    var hiddenTextAge = document.getElementById("hidden-text-age");
+    var showButtonAge = document.getElementById("show-button-age");
+    var hideButtonAge = document.getElementById("hide-button-age");
 
-    if (hiddenText.style.display === "none") {
-        hiddenText.style.display = "block";
-        showButton.style.display = "none";
-        hideButton.style.display = "inline";
+    if (hiddenTextAge.style.display === "none") {
+        hiddenTextAge.style.display = "block";
+        showButtonAge.style.display = "none";
+        hideButtonAge.style.display = "inline";
     } else {
-        hiddenText.style.display = "none";
-        showButton.style.display = "inline";
-        hideButton.style.display = "none";
+        hiddenTextAge.style.display = "none";
+        showButtonAge.style.display = "inline";
+        hideButtonAge.style.display = "none";
     }
 }
 function toggleVisibilityGender() {
 
-    var hiddenText = document.getElementById("hidden-text");
-    var showButton = document.getElementById("show-button");
-    var hideButton = document.getElementById("hide-button");
+    var hiddenTextGender = document.getElementById("hidden-text-gender");
+    var showButtonGender = document.getElementById("show-button-gender");
+    var hideButtonGender = document.getElementById("hide-button-gender");
 
-    if (hiddenText.style.display === "none") {
-        hiddenText.style.display = "block";
-        showButton.style.display = "none";
-        hideButton.style.display = "inline";
+    if (hiddenTextGender.style.display === "none") {
+        hiddenTextGender.style.display = "block";
+        showButtonGender.style.display = "none";
+        hideButtonGender.style.display = "inline";
     } else {
-        hiddenText.style.display = "none";
-        showButton.style.display = "inline";
-        hideButton.style.display = "none";
+        hiddenTextGender.style.display = "none";
+        showButtonGender.style.display = "inline";
+        hideButtonGender.style.display = "none";
     }
 }
 function toggleVisibilityAnimal() {
 
-    var hiddenText = document.getElementById("hidden-text");
-    var showButton = document.getElementById("show-button");
-    var hideButton = document.getElementById("hide-button");
+    var hiddenTextAnimal = document.getElementById("hidden-text-animal");
+    var showButtonAnimal = document.getElementById("show-button-animal");
+    var hideButtonAnimal = document.getElementById("hide-button-animal");
 
-    if (hiddenText.style.display === "none") {
-        hiddenText.style.display = "block";
-        showButton.style.display = "none";
-        hideButton.style.display = "inline";
+    if (hiddenTextAnimal.style.display === "none") {
+        hiddenTextAnimal.style.display = "block";
+        showButtonAnimal.style.display = "none";
+        hideButtonAnimal.style.display = "inline";
     } else {
-        hiddenText.style.display = "none";
-        showButton.style.display = "inline";
-        hideButton.style.display = "none";
+        hiddenTextAnimal.style.display = "none";
+        showButtonAnimal.style.display = "inline";
+        hideButtonAnimal.style.display = "none";
     }
 }
 </script>
