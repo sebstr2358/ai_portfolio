@@ -6,13 +6,13 @@
 </header>
 
 
-    <a href="https://filtersurveyapp.streamlit.app/" class="md-button md-button--primary" target='_blank'>FilterSurvey</a>
-    <div class="grid cards" markdown>
+<a href="https://filtersurveyapp.streamlit.app/" class="md-button md-button--primary" target='_blank'>FilterSurvey</a>
+<div class="grid cards" markdown>
 
-    -**skuteczna**
-    -**efektywna**
+-**skuteczna**
+-**efektywna**
 
-    </div>
+</div>
 
 
 
