@@ -23,8 +23,8 @@
             max-width: 300px;
             margin: 20px auto;">
     <h2>Wiek</h2>
-    <button id="show-button" class="md-button md-button--primary" onclick="toggleVisibility()">Pokaż spoiler</button>
-    <button id="hide-button" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibility()">Ukryj spoiler</button>
+    <button id="show-button" class="md-button md-button--primary" onclick="toggleVisibilityAge()">Pokaż spoiler</button>
+    <button id="hide-button" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibilityAge()">Ukryj spoiler</button>
     <div id="hidden-text" style="display: none; margin-top: 10px;">
         <p>Najstarsza osoba ma powyżej 65 lat!</p>
     </div>
@@ -42,8 +42,8 @@
             max-width: 300px;
             margin: 20px auto;">
     <h2>Płeć</h2>
-    <button id="show-button" class="md-button md-button--primary" onclick="toggleVisibility()">Pokaż spoiler</button>
-    <button id="hide-button" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibility()">Ukryj spoiler</button>
+    <button id="show-button" class="md-button md-button--primary" onclick="toggleVisibilityGender()">Pokaż spoiler</button>
+    <button id="hide-button" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibilityGender()">Ukryj spoiler</button>
     <div id="hidden-text" style="display: none; margin-top: 10px;">
         <p>Kobiety stanowią zaledwie ok. 23% ankietowanych!</p>
     </div>
@@ -61,14 +61,46 @@
             max-width: 300px;
             margin: 20px auto;">
     <h2>Ulubione zwierze</h2>
-    <button id="show-button" class="md-button md-button--primary" onclick="toggleVisibility()">Pokaż spoiler</button>
-    <button id="hide-button" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibility()">Ukryj spoiler</button>
+    <button id="show-button" class="md-button md-button--primary" onclick="toggleVisibilityAnimal()">Pokaż spoiler</button>
+    <button id="hide-button" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibilityAnimal()">Ukryj spoiler</button>
     <div id="hidden-text" style="display: none; margin-top: 10px;">
         <p>Zdecydowanie psy!</p>
     </div>
 </div>
 <script>
-function toggleVisibility() {
+function toggleVisibilityAge() {
+
+    var hiddenText = document.getElementById("hidden-text");
+    var showButton = document.getElementById("show-button");
+    var hideButton = document.getElementById("hide-button");
+
+    if (hiddenText.style.display === "none") {
+        hiddenText.style.display = "block";
+        showButton.style.display = "none";
+        hideButton.style.display = "inline";
+    } else {
+        hiddenText.style.display = "none";
+        showButton.style.display = "inline";
+        hideButton.style.display = "none";
+    }
+}
+function toggleVisibilityGender() {
+
+    var hiddenText = document.getElementById("hidden-text");
+    var showButton = document.getElementById("show-button");
+    var hideButton = document.getElementById("hide-button");
+
+    if (hiddenText.style.display === "none") {
+        hiddenText.style.display = "block";
+        showButton.style.display = "none";
+        hideButton.style.display = "inline";
+    } else {
+        hiddenText.style.display = "none";
+        showButton.style.display = "inline";
+        hideButton.style.display = "none";
+    }
+}
+function toggleVisibilityAnimal() {
 
     var hiddenText = document.getElementById("hidden-text");
     var showButton = document.getElementById("show-button");
