@@ -27,7 +27,7 @@
 </div>
 </div>
 <h2>Wiek</h2>
-<button onclick="toggleVisibility()">Pokaż informację</button>
+<button id="visible-text" onclick="toggleVisibility()">Pokaż informację</button>
 <div id="hidden-text" style="display: none; margin-top: 10px;">
     <p>Najstarsza osoba powyżej 65 lat!</p>
 </div>
@@ -35,10 +35,13 @@
 <script>
 function toggleVisibility() {
     var x = document.getElementById("hidden-text");
+    var y = document.getElementById("visible-text");
     if (x.style.display === "none") {
         x.style.display = "block";
+        y.style.display = "none";
     } else {
         x.style.display = "none";
+         
     }
 }
 </script>
