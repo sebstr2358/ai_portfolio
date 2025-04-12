@@ -1,16 +1,15 @@
-<header style="margin-bottom: 2rem">
+<header style="margin-bottom: 1rem">
     <h1 style="margin-bottom: 0">Interaktywna analiza danych z ankiety</h1>
     <p>Zapraszam do zapoznania się z projektem interaktywnej analizy danych
     dotyczących uczestników kursu tworzenia sztucznej inteligencji. Ankieta pozwoli sprawdzić, czy istnieje cecha, która charakteryzuje wszystkich uczestników kursu, czy może jednak prowadzącym udało się zgromadzić zupełnie różnych ludzi.
     Kliknij w link poniżej i sprawdź!</p>
 </header>
 
+<a href="https://filtersurveyapp.streamlit.app/" style="margin-bottom: 2rem" class="md-button md-button--primary" target='_blank'>FilterSurvey</a>
 
-<a href="https://filtersurveyapp.streamlit.app/" class="md-button md-button--primary" target='_blank'>FilterSurvey</a>
-
-<p>Mały spojler o ankietowanych:</p>
-
-<div style="
+<h3>Spoilery do wyników ankiety</h3>
+<div style="display: flex'">
+    <div style="
             background-color: #f8f9fa;
             display: flex;
             flex-direction: column;
@@ -22,49 +21,50 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             max-width: 300px;
             margin: 20px auto;">
-    <h2>Wiek</h2>
-    <button id="show-button-age" class="md-button md-button--primary" onclick="toggleVisibilityAge()">Pokaż spoiler</button>
-    <button id="hide-button-age" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibilityAge()">Ukryj spoiler</button>
-    <div id="hidden-text-age" style="display: none; margin-top: 10px;">
-        <p>Najstarsza osoba ma powyżej 65 lat!</p>
+        <h2>Wiek</h2>
+        <button id="show-button-age" class="md-button md-button--primary" onclick="toggleVisibilityAge()">Pokaż spoiler</button>
+        <button id="hide-button-age" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibilityAge()">Ukryj spoiler</button>
+        <div id="hidden-text-age" style="display: none; margin-top: 10px;">
+            <p>Najstarsza osoba ma powyżej 65 lat!</p>
+        </div>
     </div>
-</div>
-<div style="
-            background-color: #f8f9fa;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 0 16px 16px 16px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            max-width: 300px;
-            margin: 20px auto;">
-    <h2>Płeć</h2>
-    <button id="show-button-gender" class="md-button md-button--primary" onclick="toggleVisibilityGender()">Pokaż spoiler</button>
-    <button id="hide-button-gender" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibilityGender()">Ukryj spoiler</button>
-    <div id="hidden-text-gender" style="display: none; margin-top: 10px;">
-        <p>Kobiety stanowią zaledwie ok. 23% ankietowanych!</p>
+    <div style="
+                background-color: #f8f9fa;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                padding: 0 16px 16px 16px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                max-width: 300px;
+                margin: 20px auto;">
+        <h2>Płeć</h2>
+        <button id="show-button-gender" class="md-button md-button--primary" onclick="toggleVisibilityGender()">Pokaż spoiler</button>
+        <button id="hide-button-gender" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibilityGender()">Ukryj spoiler</button>
+        <div id="hidden-text-gender" style="display: none; margin-top: 10px;">
+            <p>Kobiety stanowią zaledwie ok. 23% ankietowanych!</p>
+        </div>
     </div>
-</div>
-<div style="
-            background-color: #f8f9fa;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 0 16px 16px 16px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            max-width: 300px;
-            margin: 20px auto;">
-    <h2>Ulubione zwierze</h2>
-    <button id="show-button-animal" class="md-button md-button--primary" onclick="toggleVisibilityAnimal()">Pokaż spoiler</button>
-    <button id="hide-button-animal" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibilityAnimal()">Ukryj spoiler</button>
-    <div id="hidden-text-animal" style="display: none; margin-top: 10px;">
-        <p>Zdecydowanie psy!</p>
+    <div style="
+                background-color: #f8f9fa;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                padding: 0 16px 16px 16px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                max-width: 300px;
+                margin: 20px auto;">
+        <h2>Ulubione zwierze</h2>
+        <button id="show-button-animal" class="md-button md-button--primary" onclick="toggleVisibilityAnimal()">Pokaż spoiler</button>
+        <button id="hide-button-animal" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibilityAnimal()">Ukryj spoiler</button>
+        <div id="hidden-text-animal" style="display: none; margin-top: 10px;">
+            <p>Zdecydowanie psy!</p>
+        </div>
     </div>
 </div>
 <script>
