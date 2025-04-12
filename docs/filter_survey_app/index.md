@@ -11,6 +11,7 @@
 <p>Mały spojler o ankietowanych:</p>
 
 <div style="
+            background-color: #f8f9fa;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -26,6 +27,44 @@
     <button id="hide-button" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibility()">Ukryj spoiler</button>
     <div id="hidden-text" style="display: none; margin-top: 10px;">
         <p>Najstarsza osoba ma powyżej 65 lat!</p>
+    </div>
+</div>
+<div style="
+            background-color: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 0 16px 16px 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            margin: 20px auto;">
+    <h2>Płeć</h2>
+    <button id="show-button" class="md-button md-button--primary" onclick="toggleVisibility()">Pokaż spoiler</button>
+    <button id="hide-button" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibility()">Ukryj spoiler</button>
+    <div id="hidden-text" style="display: none; margin-top: 10px;">
+        <p>Kobiety stanowią zaledwie ok. 23% ankietowanych!</p>
+    </div>
+</div>
+<div style="
+            background-color: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 0 16px 16px 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            margin: 20px auto;">
+    <h2>Ulubione zwierze</h2>
+    <button id="show-button" class="md-button md-button--primary" onclick="toggleVisibility()">Pokaż spoiler</button>
+    <button id="hide-button" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibility()">Ukryj spoiler</button>
+    <div id="hidden-text" style="display: none; margin-top: 10px;">
+        <p>Zdecydowanie psy!</p>
     </div>
 </div>
 <script>
