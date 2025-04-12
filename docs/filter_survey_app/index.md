@@ -6,14 +6,22 @@
 </header>
 
 
-<a href="https://filtersurveyapp.streamlit.app/" class="md-button md-button--primary" target='_blank'>FilterSurvey</a>
+<a href="https://filtersurveyapp.streamlit.app/" class="md-button md-button--primary" target='_blank'><button style="background-color: light green;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+            display: inline-block;
+            position: relative;" hover="background-color: light-green">FilterSurvey</button></a>
 
 <p>Mały spojler o ankietowanych:</p>
 
 <div style="
             display: flex;
             flex-direction: column;
-            align-items: center;
+            justify-content: center;
             border: 1px solid #ddd;
             border-radius: 8px;
             padding: 16px;
@@ -21,7 +29,7 @@
             max-width: 300px;
             margin: 20px auto;">
     <h2>Wiek</h2>
-    <button style="background-color: lime;
+    <button style="background-color: light green;
             color: white;
             border: none;
             padding: 10px 15px;
