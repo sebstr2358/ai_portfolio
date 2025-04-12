@@ -10,11 +10,16 @@
 
 <p>Mały spojler o ankietowanych:</p>
 
-<h2>Wiek (1)!</h2>
-<button onclick="toggleVisibility()">Pokaż informację</button>
+<h2>Wiek</h2>
+<button onclick="toggleVisibility()">Pokaż informację </button>
 
 <div id="hidden-text" style="display: none; margin-top: 10px;">
-    <p>1. Najstarsza osoba powyżej 65 lat!</p>
+    <p>Najstarsza osoba powyżej 65 lat!</p>
+</div>
+<h2>Wiek</h2>
+<button onclick="toggleVisibility()">Pokaż informację &darr</button>
+<div id="hidden-text" style="display: none; margin-top: 10px;">
+    <p>Najstarsza osoba powyżej 65 lat!</p>
 </div>
 
 <script>
