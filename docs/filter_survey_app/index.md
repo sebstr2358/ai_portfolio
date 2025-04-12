@@ -22,21 +22,15 @@
             max-width: 300px;
             margin: 20px auto;">
     <h2>Wiek</h2>
-    <button class="md-button md-button--primary" onclick="toggleVisibility()">Pokaż spoiler </button>
+    <button id="show-button" onclick="toggleVisibility()">Pokaż spoiler</button>
+    <button id="hide-button" style="display: none;" onclick="toggleVisibility()">Ukryj spoiler</button>
     <div id="hidden-text" style="display: none; margin-top: 10px;">
-    <p>Najstarsza osoba ma powyżej 65 lat!</p>
+        <p>Najstarsza osoba ma powyżej 65 lat!</p>
+    </div>
 </div>
-</div>
-<h2>Wiek</h2>
-<button id="show-button" onclick="toggleVisibility()">Pokaż spoiler</button>
-<button id="hide-button" style="display: none;" onclick="toggleVisibility()">Ukryj spoiler</button>
-
-<div id="hidden-text" style="display: none; margin-top: 10px;">
-    <p>Najstarsza osoba powyżej 65 lat!</p>
-</div>
-
 <script>
 function toggleVisibility() {
+
     var hiddenText = document.getElementById("hidden-text");
     var showButton = document.getElementById("show-button");
     var hideButton = document.getElementById("hide-button");
