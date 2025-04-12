@@ -28,7 +28,9 @@
 </div>
 </div>
 <h2>Wiek</h2>
-<button id="show-button" onclick="toggleVisibility()">Pokaż informację</button>
+<button id="show-button" onclick="toggleVisibility()">Pokaż spoiler</button>
+<button id="hide-button" style="display: none;" onclick="toggleVisibility()">Ukryj spoiler</button>
+
 <div id="hidden-text" style="display: none; margin-top: 10px;">
     <p>Najstarsza osoba powyżej 65 lat!</p>
 </div>
@@ -37,11 +39,16 @@
 function toggleVisibility() {
     var hiddenText = document.getElementById("hidden-text");
     var showButton = document.getElementById("show-button");
-    
+    var hideButton = document.getElementById("hide-button");
 
     if (hiddenText.style.display === "none") {
         hiddenText.style.display = "block";
-        showButton.style.disabled = True;
+        showButton.style.display = "none";
+        hideButton.style.display = "inline";
+    } else {
+        hiddenText.style.display = "none";
+        showButton.style.display = "inline";
+        hideButton.style.display = "none";
     }
 }
 </script>
