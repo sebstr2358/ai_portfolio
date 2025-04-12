@@ -418,14 +418,14 @@
             align-items: center;
             border: 1px solid #ddd;
             border-radius: 8px;
-            padding: 16px;
+            padding: 8px 16px 16px 16px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             max-width: 300px;
             margin: 20px auto;">
     <h2>Wiek</h2>
-    <button class="md-button md-button--primary" onclick="toggleVisibility()">Pokaż informację </button>
+    <button class="md-button md-button--primary" onclick="toggleVisibility()">Pokaż spoiler </button>
     <div id="hidden-text" style="display: none; margin-top: 10px;">
-    <p>Najstarsza osoba powyżej 65 lat!</p>
+    <p>Najstarsza osoba ma powyżej 65 lat!</p>
 </div>
 </div>
 <h2>Wiek</h2>
@@ -442,7 +442,7 @@ function toggleVisibility() {
 
     if (hiddenText.style.display === "none") {
         hiddenText.style.display = "block";
-        showButton.style.display = "none";
+        showButton.style.disabled = True;
     }
 }
 </script>
