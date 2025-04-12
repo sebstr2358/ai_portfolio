@@ -411,9 +411,22 @@
 <p><a href="https://filtersurveyapp.streamlit.app/" class="md-button md-button--primary" target='_blank'>FilterSurvey</a></p>
 <p>Mały spojler o ankietowanych:</p>
 
-<div class='card'>
+<div style="border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            margin: 20px auto;">
     <h2>Wiek</h2>
-    <button onclick="toggleVisibility()">Pokaż informację </button>
+    <button style="background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+            display: inline-block;
+            position: relative;" onclick="toggleVisibility()">Pokaż informację ' \25BC'</button>
     <div id="hidden-text" style="display: none; margin-top: 10px;">
     <p>Najstarsza osoba powyżej 65 lat!</p>
 </div>
