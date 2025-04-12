@@ -2,7 +2,7 @@ site_name: Moje projekty
 site_author: Sebastian Strzelczyk
 site_url: https://sebstr2358.github.io/ai_portfolio/
 site_description: >-
-    Portfolio moich wspaniałych projektów z Data Science i AI!
+  Portfolio moich wspaniałych projektów z Data Science i AI!
 
 repo_name: sebstr2358/ai_portfolio
 repo_url: https://github.com/sebstr2358/ai_portfolio
@@ -12,20 +12,19 @@ theme:
   palette:
     primary: lime
     accent: light green
+  
 
 nav:
-- Strona Domowa: index.md
-- Poprzednie projekty:
-  - "Filter_survey_app": filter_survey_app/index.md
-  - "Titanic": titanic/index.md
-  - "Iris": iris/index.md
+  - Strona Domowa: index.md
+  - Poprzednie projekty:
+      - "Filter_survey_app": filter_survey_app/index.md
+      - "Titanic": titanic/index.md
+      - "Iris": iris/index.md
 
 markdown_extensions:
-- attr_list
-- md_in_html
-- pymdownx.blocks.caption
-
-
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
 
 
   
