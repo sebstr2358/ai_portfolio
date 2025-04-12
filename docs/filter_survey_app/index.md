@@ -5,15 +5,15 @@
     Kliknij w link poniżej i sprawdź!</p>
 </header>
 
-<main>
+
     <a href="https://filtersurveyapp.streamlit.app/" class="md-button md-button--primary" target='_blank'>FilterSurvey</a>
     <div class="grid cards" markdown>
 
-    - **skuteczna**
-    - **efektywna**
-    
+    -**skuteczna**
+    -**efektywna**
+
     </div>
-</main>
+
 
 
 
