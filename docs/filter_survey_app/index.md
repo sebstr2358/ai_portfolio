@@ -7,14 +7,13 @@
 
 
 <a href="https://filtersurveyapp.streamlit.app/" class="md-button md-button--primary" target='_blank'>FilterSurvey</a>
-<div class="grid cards" markdown>
 
-- **skuteczna** for content and structure
-- **szybka** for interactivity
-- **fajna** for text running out of boxes
-- **śmieszna** ... huh?
+<p>Mały spojler o ankietowanych:</p>
+``` yaml
+# (1)!
+```
 
-</div>
+1.  Wiek
 
 
 
