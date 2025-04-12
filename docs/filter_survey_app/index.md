@@ -10,14 +10,18 @@
 
 <p>Mały spojler o ankietowanych:</p>
 
-<div style="border: 1px solid #ddd;
+<div style="
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid #ddd;
             border-radius: 8px;
             padding: 16px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             max-width: 300px;
             margin: 20px auto;">
     <h2>Wiek</h2>
-    <button style="background-color: #007BFF;
+    <button style="background-color: lime;
             color: white;
             border: none;
             padding: 10px 15px;
@@ -25,7 +29,7 @@
             font-size: 14px;
             cursor: pointer;
             display: inline-block;
-            position: relative;" onclick="toggleVisibility()">Pokaż informację ' \25BC'</button>
+            position: relative;" :hover="background-color: light-green" onclick="toggleVisibility()">Pokaż informację <span>'\25BC'</span></button>
     <div id="hidden-text" style="display: none; margin-top: 10px;">
     <p>Najstarsza osoba powyżej 65 lat!</p>
 </div>
