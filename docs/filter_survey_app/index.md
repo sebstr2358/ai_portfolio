@@ -9,8 +9,10 @@
 <a href="https://filtersurveyapp.streamlit.app/" class="md-button md-button--primary" target='_blank'>FilterSurvey</a>
 <div class="grid cards" markdown>
 
--**skuteczna**
--**efektywna**
+- **skuteczna** for content and structure
+- **szybka** for interactivity
+- **fajna** for text running out of boxes
+- **śmieszna** ... huh?
 
 </div>
 
