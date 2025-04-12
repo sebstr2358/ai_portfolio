@@ -12,8 +12,16 @@
 ``` yaml
 # (1)!
 ```
+``` yaml
+# (2)!
+```
+``` yaml
+# (3)!
+```
 
-1.  Wiek
+1. Wiek
+2. Płeć
+3. Główny motyw do nauki AI 
 
 
 
