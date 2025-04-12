@@ -17,7 +17,7 @@
     <p>Najstarsza osoba powyżej 65 lat!</p>
 </div>
 <h2>Wiek</h2>
-<button onclick="toggleVisibility()">Pokaż informację &darr</button>
+<button onclick="toggleVisibility()">Pokaż informację ![alt text](image.png)</button>
 <div id="hidden-text" style="display: none; margin-top: 10px;">
     <p>Najstarsza osoba powyżej 65 lat!</p>
 </div>
