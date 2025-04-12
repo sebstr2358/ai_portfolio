@@ -12,6 +12,8 @@ theme:
   palette:
     primary: lime
     accent: light green
+  features:
+    - content.code.annotate # 
   
 
 nav:
