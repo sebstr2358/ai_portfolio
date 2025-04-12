@@ -410,9 +410,23 @@
 
 <p><a href="https://filtersurveyapp.streamlit.app/" class="md-button md-button--primary" target='_blank'>FilterSurvey</a></p>
 <p>Mały spojler o ankietowanych:</p>
-<p><div class="language-yaml highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1"># Wiek (1)!</span>
-</span></code></pre></div>
-1. Najstarsza osoba powyżej 65 lat!</p>
+
+<h2>Wiek (1)!</h2>
+<p><button onclick="toggleVisibility()">Pokaż informację</button></p>
+<div id="hidden-text" style="display: none; margin-top: 10px;">
+    <p>1. Najstarsza osoba powyżej 65 lat!</p>
+</div>
+
+<script>
+function toggleVisibility() {
+    var x = document.getElementById("hidden-text");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
 
 
 
