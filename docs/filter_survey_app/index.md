@@ -12,6 +12,7 @@
 
 <div style="
             display: flex;
+            height: 100%;
             flex-direction: column;
             justify-content: center;
             border: 1px solid #ddd;
@@ -27,21 +28,27 @@
 </div>
 </div>
 <h2>Wiek</h2>
-<button id="visible-text" onclick="toggleVisibility()">Pokaż informację</button>
+<button id="show-button" onclick="toggleVisibility()">Pokaż informację</button>
+<button id="hide-button" style="display: none;" onclick="toggleVisibility()">Ukryj informację</button>
+
 <div id="hidden-text" style="display: none; margin-top: 10px;">
     <p>Najstarsza osoba powyżej 65 lat!</p>
 </div>
 
 <script>
 function toggleVisibility() {
-    var x = document.getElementById("hidden-text");
-    var y = document.getElementById("visible-text");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-        y.style.display = "none";
+    var hiddenText = document.getElementById("hidden-text");
+    var showButton = document.getElementById("show-button");
+    var hideButton = document.getElementById("hide-button");
+
+    if (hiddenText.style.display === "none") {
+        hiddenText.style.display = "block";
+        showButton.style.display = "none";
+        hideButton.style.display = "inline";
     } else {
-        x.style.display = "none";
-        y.style.display = "block";  
+        hiddenText.style.display = "none";
+        showButton.style.display = "inline";
+        hideButton.style.display = "none";
     }
 }
 </script>
