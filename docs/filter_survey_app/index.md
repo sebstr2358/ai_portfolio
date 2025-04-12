@@ -8,7 +8,7 @@
 <a href="https://filtersurveyapp.streamlit.app/" style="margin-bottom: 2rem" class="md-button md-button--primary" target='_blank'>FilterSurvey</a>
 
 <h3>Spoilery do wyników ankiety</h3>
-<div style="display: flex'">
+<div style="display: flex">
     <div style="
             background-color: #f8f9fa;
             display: flex;
@@ -59,7 +59,7 @@
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                 max-width: 300px;
                 margin: 20px auto;">
-        <h2>Ulubione zwierze</h2>
+        <h2>Ulubione zwierzę</h2>
         <button id="show-button-animal" class="md-button md-button--primary" onclick="toggleVisibilityAnimal()">Pokaż spoiler</button>
         <button id="hide-button-animal" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibilityAnimal()">Ukryj spoiler</button>
         <div id="hidden-text-animal" style="display: none; margin-top: 10px;">
