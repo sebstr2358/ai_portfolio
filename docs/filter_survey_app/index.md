@@ -5,6 +5,9 @@
     Kliknij w link poniżej i sprawdź!</p>
 </header>
 
+<a href="app.py" style="margin-bottom: 2rem" class="md-button md-button--primary" target='_blank'>Pobierz notebook</a>
+
+<h3>Link do ankiety</h3>
 <a href="https://filtersurveyapp.streamlit.app/" style="margin-bottom: 2rem" class="md-button md-button--primary" target='_blank'>FilterSurvey</a>
 
 <h3>Spoilery do wyników ankiety</h3>
