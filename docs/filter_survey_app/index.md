@@ -10,7 +10,7 @@
 <h3>Link do ankiety</h3>
 <a href="https://filtersurveyapp.streamlit.app/" style="margin-bottom: 2rem" class="md-button md-button--primary" target='_blank'>FilterSurvey</a>
 
-<h3 style='margin-top: 0'>Spoilery do wyników ankiety</h3>
+<h3 style="margin-top: 0; margin-bottom: 0">Spoilery do wyników ankiety</h3>
 <div style="display: flex">
     <div style="
             background-color: #f8f9fa;
