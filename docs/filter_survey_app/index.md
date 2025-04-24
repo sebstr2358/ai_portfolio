@@ -25,7 +25,7 @@
             max-width: 300px;
             margin: 20px auto;">
         <h2>Wiek</h2>
-        <button id="show-button-age" class="md-button md-button--primary" onclick="toggleVisibilityAge()">Pokaż spoiler <span style="font-size: 1.5rem; font-weight: bold">↓↓</span></button>
+        <button id="show-button-age" class="md-button md-button--primary" onclick="toggleVisibilityAge()">Pokaż spoiler <span style="font-size: 1.2rem; font-weight: bold">↓↓</span></button>
         <button id="hide-button-age" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibilityAge()">Ukryj spoiler</button>
         <div id="hidden-text-age" style="display: none; margin-top: 10px;">
             <p>Najstarsza osoba ma powyżej 65 lat!</p>
