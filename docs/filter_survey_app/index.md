@@ -44,7 +44,7 @@
                 max-width: 300px;
                 margin: 20px auto;">
         <h2>Płeć</h2>
-        <button id="show-button-gender" class="md-button md-button--primary" onclick="toggleVisibilityGender()">Pokaż spoiler ↓↓</button>
+        <button id="show-button-gender" class="md-button md-button--primary" onclick="toggleVisibilityGender()">Pokaż spoiler <span style="font-size: 1.2rem; font-weight: bold">↓↓</span></button>
         <button id="hide-button-gender" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibilityGender()">Ukryj spoiler</button>
         <div id="hidden-text-gender" style="display: none; margin-top: 10px;">
             <p>Kobiety stanowią zaledwie ok. 23% ankietowanych!</p>
@@ -63,7 +63,7 @@
                 max-width: 300px;
                 margin: 20px auto;">
         <h2>Ulubione zwierzę</h2>
-        <button id="show-button-animal" class="md-button md-button--primary" onclick="toggleVisibilityAnimal()">Pokaż spoiler ↓↓</button>
+        <button id="show-button-animal" class="md-button md-button--primary" onclick="toggleVisibilityAnimal()">Pokaż spoiler <span style="font-size: 1.2rem; font-weight: bold">↓↓</span></button>
         <button id="hide-button-animal" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibilityAnimal()">Ukryj spoiler</button>
         <div id="hidden-text-animal" style="display: none; margin-top: 10px;">
             <p>Zdecydowanie psy!</p>
