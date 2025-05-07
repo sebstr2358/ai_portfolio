@@ -5,4 +5,4 @@
 </header>
 
 <h3>Link do aplikacji</h3>
-<a href="https://calculate-insurance-app.streamlit.app/" style="margin-bottom: 2rem" class="md-button md-button--primary" target='_blank'>Calculate_insurance_charge</a>
+<a href="https://calculate-insurance-app.streamlit.app/" style="margin-bottom: 2rem" class="md-button md-button--primary" target='_blank'>CalculateInsuranceCharge</a>
