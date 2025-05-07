@@ -19,6 +19,7 @@ theme:
 nav:
   - Strona Domowa: index.md
   - Poprzednie projekty:
+      - "Calculate_insurance_app": 
       - "Filter_survey_app": filter_survey_app/index.md
       - "Titanic": titanic/index.md
       - "Iris": iris/index.md
