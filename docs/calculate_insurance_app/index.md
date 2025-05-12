@@ -6,3 +6,6 @@
 
 <h3>Link do aplikacji</h3>
 <a href="https://calculate-insurance-app.streamlit.app/" style="margin-bottom: 2rem" class="md-button md-button--primary" target='_blank'>CalculateInsuranceCharge</a>
+
+<h3>Znaczenie poszczególnych cech</h3>
+![features_importance](features.png)
