@@ -21,6 +21,7 @@ nav:
   - Bieżący projekt:
       - "Calculate_insurance_app": calculate_insurance_app/index.md
   - Poprzednie projekty:
+      - "ChatGPT": chat_gpt/index.md
       - "JustJoinIt": just_join_it/index.md
       - "Filter_survey_app": filter_survey_app/index.md
       - "Titanic": titanic/index.md
