@@ -5,15 +5,13 @@
 
 <a href="eda_old_data_justjoinit.ipynb" class="md-button md-button--primary">Pobierz Notebook</a>
 
-<div style="width: 100%; height: 500px; background-color: #2E3440;">
-    <iframe
-        id="content"
-        src="eda_old_data_justjoinit.html"
-        width="100%"
-        height="100%"  <!-- Dopasowuje wysokość iframe do kontenera -->
-        style="border:1px solid black; overflow:hidden;"
-    ></iframe>
-</div>
+<iframe
+    id="content"
+    src="eda_old_data_justjoinit.html"
+    width="100%"
+    style="border:1px solid black; overflow:hidden;"
+></iframe>
+
 <script>
 function resizeIframeToFitContent(iframe) {
     iframe.style.height = (iframe.contentWindow.document.documentElement.scrollHeight + 50) + "px";
