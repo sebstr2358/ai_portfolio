@@ -9,7 +9,7 @@
     id="content"
     src="eda_old_data_justjoinit.html"
     width="100%"
-    style="border:1px solid black; overflow:hidden;"
+    style="border:1px solid black; overflow:hidden; padding-bottom: 5px;"
 ></iframe>
 
 <script>
