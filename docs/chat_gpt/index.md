@@ -6,5 +6,8 @@
 <h3>Link do aplikacji</h3>
 <a href="https://chatgpt-4o-mini.streamlit.app/" style="margin-bottom: 2rem" class="md-button md-button--primary" target='_blank'>chatGPT</a>
 
-<h3>Znaczenie poszczególnych cech</h3>
-![features_importance](features.png)
+<h3>Logowanie ze wskazówkami</h3>
+![Login_tips](gpt_app1.png)
+
+<h3>Opcje konfiguracji czata</h3>
+![Configuration_options](gpt_app2.png)
