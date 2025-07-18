@@ -5,7 +5,7 @@
 
 <a href="eda_old_data_justjoinit.ipynb" class="md-button md-button--primary">Pobierz Notebook</a>
 
-<div style="width: 100%; height: 500px; background: #2E3440;">
+<div style="width: 100%; height: 500px; background-color: #2E3440;">
     <iframe
         id="content"
         src="eda_old_data_justjoinit.html"
