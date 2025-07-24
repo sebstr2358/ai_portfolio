@@ -19,7 +19,7 @@ theme:
 nav:
   - Strona Domowa: index.md
   - Bieżący projekt:
-      - "MathApp"
+      - "MathApp": math_app/index.md
   - Poprzednie projekty:
       - "Calculate_insurance_app": calculate_insurance_app/index.md
       - "ChatGPT": chat_gpt/index.md
