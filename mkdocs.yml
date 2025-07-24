@@ -20,6 +20,7 @@ nav:
   - Strona Domowa: index.md
   - Bieżący projekt:
       - "MathApp": math_app/index.md
+      - "Career_guide": 
   - Poprzednie projekty:
       - "Calculate_insurance_app": calculate_insurance_app/index.md
       - "ChatGPT": chat_gpt/index.md
