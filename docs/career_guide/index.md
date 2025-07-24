@@ -4,7 +4,7 @@
 </header>
 
 <h3>Specjalność</h3>
-![industriesIT](industriesIT.png)
+<img src="industriesIT.png" alt="industriesIT" width="400" />
 
 <h3>Więcej informacji</h3>
-![loadingInfo](loadingInfo.png)
+<img src="loadingInfo.png" alt="loadingInfo" width="400" />
