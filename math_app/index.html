@@ -12,13 +12,13 @@
         <meta name="author" content="Sebastian Strzelczyk">
       
       
-        <link rel="canonical" href="https://sebstr2358.github.io/ai_portfolio/filter_survey_app/">
+        <link rel="canonical" href="https://sebstr2358.github.io/ai_portfolio/math_app/">
       
       
-        <link rel="prev" href="../just_join_it/">
+        <link rel="prev" href="..">
       
       
-        <link rel="next" href="../titanic/">
+        <link rel="next" href="../calculate_insurance_app/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>Filter_survey_app - Moje projekty</title>
+        <title>MathApp - Moje projekty</title>
       
     
     
@@ -107,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Filter_survey_app
+              MathApp
             
           </span>
         </div>
@@ -246,18 +246,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -273,7 +275,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Bieżący projekt
@@ -284,10 +286,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../math_app/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -298,6 +307,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -314,20 +324,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -343,7 +351,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Poprzednie projekty
@@ -423,17 +431,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../filter_survey_app/" class="md-nav__link">
         
   
   
@@ -444,7 +445,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -539,125 +539,16 @@
 
 
 <header style="margin-bottom: 1rem">
-    <h1 style="margin-bottom: 0">Interaktywna analiza danych z ankiety</h1>
-    <p>Zapraszam do zapoznania się z projektem interaktywnej analizy danych
-    dotyczących uczestników kursu tworzenia sztucznej inteligencji. Ankieta pozwoli sprawdzić, czy istnieje cecha, która charakteryzuje wszystkich uczestników kursu, czy może jednak prowadzącym udało się zgromadzić zupełnie różnych ludzi.
-    Kliknij w link poniżej i sprawdź!</p>
+    <h1 style="margin-bottom: 0">Matematyczny Kursor Maturalny</h1>
+    <p>"Matematyczny Kursor Maturalny" to aplikacja, która umożliwia powtórkę przed maturą z wybranego działu matematycznego oraz generowanie losowego arkusza egzaminacyjnego. Wstępna wersja pozwala jedynie na przeglądanie odpowiedzi do zadań, bez dodatkowych wskazówek dotyczących ich rozwiązania. Użytkownicy mogą obecnie wybierać pomiędzy dwoma językami: polskim i angielskim, a prace nad rozszerzeniem funkcji aplikacji są w trakcie realizacji.</p>
 </header>
 
-<p><a href="app.py" style="margin-bottom: 2rem" class="md-button md-button--primary">Pobierz notebook</a></p>
-<h3>Link do ankiety</h3>
-<p><a href="https://filtersurveyapp.streamlit.app/" style="margin-bottom: 2rem" class="md-button md-button--primary" target='_blank'>FilterSurvey</a></p>
-<h3 style="margin-top: 0; margin-bottom: 0">Spoilery do wyników ankiety</h3>
-<div style="display: flex">
-    <div style="
-            background-color: #f8f9fa;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 0 16px 16px 16px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            max-width: 300px;
-            margin: 20px auto;">
-        <h2>Wiek</h2>
-        <button id="show-button-age" class="md-button md-button--primary" onclick="toggleVisibilityAge()">Pokaż spoiler <span style="font-size: 1rem; font-weight: bold">↓↓</span></button>
-        <button id="hide-button-age" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibilityAge()">Ukryj spoiler</button>
-        <div id="hidden-text-age" style="display: none; margin-top: 10px;">
-            <p>Najstarsza osoba ma powyżej 65 lat!</p>
-        </div>
-    </div>
-    <div style="
-                background-color: #f8f9fa;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                border: 1px solid #ddd;
-                border-radius: 8px;
-                padding: 0 16px 16px 16px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                max-width: 300px;
-                margin: 20px auto;">
-        <h2>Płeć</h2>
-        <button id="show-button-gender" class="md-button md-button--primary" onclick="toggleVisibilityGender()">Pokaż spoiler <span style="font-size: 1rem; font-weight: bold">↓↓</span></button>
-        <button id="hide-button-gender" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibilityGender()">Ukryj spoiler</button>
-        <div id="hidden-text-gender" style="display: none; margin-top: 10px;">
-            <p>Kobiety stanowią zaledwie ok. 23% ankietowanych!</p>
-        </div>
-    </div>
-    <div style="
-                background-color: #f8f9fa;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                border: 1px solid #ddd;
-                border-radius: 8px;
-                padding: 0 16px 16px 16px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                max-width: 300px;
-                margin: 20px auto;">
-        <h2>Ulubione zwierzę</h2>
-        <button id="show-button-animal" class="md-button md-button--primary" onclick="toggleVisibilityAnimal()">Pokaż spoiler <span style="font-size: 1rem; font-weight: bold">↓↓</span></button>
-        <button id="hide-button-animal" class="md-button md-button--primary" style="display: none;" onclick="toggleVisibilityAnimal()">Ukryj spoiler</button>
-        <div id="hidden-text-animal" style="display: none; margin-top: 10px;">
-            <p>Zdecydowanie psy!</p>
-        </div>
-    </div>
-</div>
-<script>
-function toggleVisibilityAge() {
-
-    var hiddenTextAge = document.getElementById("hidden-text-age");
-    var showButtonAge = document.getElementById("show-button-age");
-    var hideButtonAge = document.getElementById("hide-button-age");
-
-    if (hiddenTextAge.style.display === "none") {
-        hiddenTextAge.style.display = "block";
-        showButtonAge.style.display = "none";
-        hideButtonAge.style.display = "inline";
-    } else {
-        hiddenTextAge.style.display = "none";
-        showButtonAge.style.display = "inline";
-        hideButtonAge.style.display = "none";
-    }
-}
-function toggleVisibilityGender() {
-
-    var hiddenTextGender = document.getElementById("hidden-text-gender");
-    var showButtonGender = document.getElementById("show-button-gender");
-    var hideButtonGender = document.getElementById("hide-button-gender");
-
-    if (hiddenTextGender.style.display === "none") {
-        hiddenTextGender.style.display = "block";
-        showButtonGender.style.display = "none";
-        hideButtonGender.style.display = "inline";
-    } else {
-        hiddenTextGender.style.display = "none";
-        showButtonGender.style.display = "inline";
-        hideButtonGender.style.display = "none";
-    }
-}
-function toggleVisibilityAnimal() {
-
-    var hiddenTextAnimal = document.getElementById("hidden-text-animal");
-    var showButtonAnimal = document.getElementById("show-button-animal");
-    var hideButtonAnimal = document.getElementById("hide-button-animal");
-
-    if (hiddenTextAnimal.style.display === "none") {
-        hiddenTextAnimal.style.display = "block";
-        showButtonAnimal.style.display = "none";
-        hideButtonAnimal.style.display = "inline";
-    } else {
-        hiddenTextAnimal.style.display = "none";
-        showButtonAnimal.style.display = "inline";
-        hideButtonAnimal.style.display = "none";
-    }
-}
-</script>
+<h3>Link do aplikacji</h3>
+<p><a href="https://mature-app.netlify.app" style="margin-bottom: 2rem" class="md-button md-button--primary" target='_blank'>mathApp</a></p>
+<h3>Wybór języka</h3>
+<p><img alt="language_choice" src="language_choice.png" /></p>
+<h3>Arkusz egzaminacyjny</h3>
+<p><img alt="random_exam" src="random_exam.png" /></p>
 
 
 
